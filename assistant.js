@@ -12,7 +12,7 @@ PersonalAssistant.prototype.addTask = function(task) {
   console.log(`${this.name} added task: "${task}"`);
 };
 
-// Completes the first task in the list
+// First, we start off with this line of code. This completes the first task in the list
 PersonalAssistant.prototype.completeTask = function() {
   if (this.tasks.length === 0) {
     console.log(`${this.name} has no tasks left — time to relax?`);
