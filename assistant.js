@@ -19,7 +19,7 @@ PersonalAssistant.prototype.completeTask = function() {
     return;
   }
   const task = this.tasks.shift();
-  console.log(`${this.name} completed task: "${task}"`);
+  console.log(`${this.name} completed task: "${ask}"`);
 };
 
 // Reports the current mood
